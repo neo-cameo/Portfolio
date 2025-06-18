@@ -21,6 +21,8 @@ li {
     list-style-type: none;
 }
 
+flex-1 {}
+
 /* NAVIGATION BAR */
 
 nav {
@@ -57,4 +59,12 @@ nav {
     color: #6030b1;
     margin: 0 12px;
     font-weight: bold;
+}
+
+/* About Me */
+
+#about-me {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
